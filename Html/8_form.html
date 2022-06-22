@@ -31,13 +31,19 @@
  <footer>
 
  </footer> -->
-<form action="#">
+<form action="./8_form.html" target="_blank" method="GET" novalidate>
+  <fieldset>
+    <legend>Regester Here</legend>
 <label for="fname">FirstName:</label>
 <input type="text" id="fname">
 <br>
 <br>
 <label for="lname">LastName:</label>
-<input type="text" id="lname">
+<input type="text" id="lname" >
+<br>
+<br>
+<label for="email">email:</label>
+<input type="email" id="email" >
 <br>
 <br>
 <p>Choose the language</p>
@@ -48,6 +54,31 @@
 <label for="html">Html</label>
 <input type="checkbox" id="CSS" name="lan">
 <label for="CSS">CSS</label>
+<select name="lang" id="lang" size="0"   multiple>
+  <option value="null">select</option>
+
+  <option value="js" >JavaScript</option>
+  <option value="css">JavaScript</option>
+
+  <option value="html">JavaScript</option>
+
+  <option value="php">JavaScript</option>
+
+</select>
+
+<textarea name="" id="" style="width: 100px; height: 200px; resize: none;"></textarea>
+</fieldset>
+
+
+<input list="language">
+  <datalist id="language">
+    <option value="javaScripts">
+    <option value="php">
+
+  </datalist>
+
+<input type="submit" value="click">
+
 </form>
 
     
