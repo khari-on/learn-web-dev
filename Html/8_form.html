@@ -31,15 +31,15 @@
  <footer>
 
  </footer> -->
-<form action="./8_form.html" target="_blank" method="GET" novalidate>
+<form action="./8_form.html" target="_blank" method="GET" novalidate autocomplete="on">
   <fieldset>
     <legend>Regester Here</legend>
 <label for="fname">FirstName:</label>
-<input type="text" id="fname">
+<input type="text" id="fname" autocomplete="off">
 <br>
 <br>
 <label for="lname">LastName:</label>
-<input type="text" id="lname" >
+<input type="number" id="lname" >
 <br>
 <br>
 <label for="email">email:</label>
@@ -80,7 +80,54 @@
 <input type="submit" value="click">
 
 </form>
+<form action="">
+  <label for="fname">Text:</label>
+<input type="text" id="fname" maxlength="11" placeholder="Enter your name" required
+autofocus>
+<br>
+<br>
+<label for="fname">Password:</label>
+<input type="password" id="fname">
+<br>
+<br>
+<label for="fname">submit:</label>
+<input type="submit" id="fname">
 
+<br>
+<br>
+<label for="fname">submit:</label>
+<input type="reset" id="fname">
+
+<br>
+<br>
+<input type="radio" id="js" name="lan" checked>
+<label for="js">JavaScript</label>
+<input type="radio" id="html" name="lan">
+<label for="html">Html</label>
+<input type="radio" id="CSS" name="lan">
+<label for="CSS">CSS</label>
+
+
+<input type="color" value="#ff0000" name="" id="">
+<input type="date" min="2022-06-01" name="" id="">
+
+<input type="datetime-local" min="2022-06-01" name="" id="">
+
+<input type="file" min="2022-06-01" name="" id="" >
+<input type="hidden">
+
+<input type="month" disabled>
+<input type="number" name="" id="" step="5">
+
+<input type="range">
+<input type="search">
+<input type="tel" name="" id="">
+<input type="time" name="" id="">
+<input type="url" name="" id="">
+<input type="image" src="../img/lion.avif" alt="">
+<img src="../img/lion.avif" alt="">
+
+</form>
     
 </body>
 </html>
