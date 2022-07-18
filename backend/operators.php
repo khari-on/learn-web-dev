@@ -145,9 +145,9 @@
 // echo $x;
 
 //user;
-$y;
-$x= $y ?? "user not found";
+// $y;
+// $x= $y ?? "user not found";
 
-echo  $x;
+// echo  $x;
 
 ?>
