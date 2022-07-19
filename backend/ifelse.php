@@ -14,21 +14,21 @@ $x=2;
 //    echo "The value is equal to 20 or greater than 20 , value = ".$x;
 // }
 
-$x='grey';
-switch($x){
-    case 'blue':
-    echo "color is blue";
-    break;
+// $x='grey';
+// switch($x){
+//     case 'blue':
+//     echo "color is blue";
+//     break;
 
-    case 'red':
-    echo "color is red";
+//     case 'red':
+//     echo "color is red";
   
-    break;
+//     break;
 
-    default:
-    echo "color not found";
+//     default:
+//     echo "color not found";
 
-}
+// }
 
 
 ?>
