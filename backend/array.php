@@ -25,13 +25,13 @@
 //     echo $key . ' = ' . $value . "<br>";
 // }
  
-$cars=array(
-    array("audi",22,2022),
-    array("valvo",52,2032),
-    array("benz",32,2025),
-    array("ferrari",2,2020),
+// $cars=array(
+//     array("audi",22,2022),
+//     array("valvo",52,2032),
+//     array("benz",32,2025),
+//     array("ferrari",2,2020),
 
-);
+// );
 
 // var_dump( $cars[0]);
 // echo "<br>";
@@ -42,13 +42,30 @@ $cars=array(
 // var_dump ($cars[3]);
 // echo "<br>";
 
-for ($row=0; $row<4 ; $row++){
+// for ($row=0; $row<4 ; $row++){
 
-    for($col=0; $col <1;$col++){
-        echo $cars[$row][$col];
-        echo "<br>";
-    }
+//     for($col=0; $col <1;$col++){
+//         echo $cars[$row][$col];
+//         echo "<br>";
+//     }
 
-}
+// }
+
+// $car=array("ferrari","audi","volvo");
+// var_dump($car);
+// echo "<br>";
+// var_dump(rsort($car));
+// echo "<br>";
+
+// var_dump($car);
+
+// $age=array("hari"=>32,"sabari"=>25);
+// var_dump($age);
+
+// echo "<br>";
+// arsort($age);
+// echo "<br>";
+// var_dump($age);
+
 
 ?>
