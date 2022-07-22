@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>DUmmy</h1>
+    <h1>Welcome Your Are Successfully Registered....🤠</h1>
+
+    <h2>Name: <?php echo $_GET['userName']  ?></h2>
+    <p>email:<?php echo $_GET['email'] ?></p>
 </body>
 </html>
